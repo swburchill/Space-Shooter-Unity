@@ -299,7 +299,7 @@ MonoBehaviour:
     xMin: -6
     xMax: 6
     zMin: -4
-    zMax: 8
+    zMax: 14
   mainCannonShot: {fileID: 135590, guid: 019350c9a8ceb974abe5d38d172362b0, type: 2}
   mainCannonPosition: {fileID: 493928}
   sideCannon1Shot: {fileID: 135590, guid: 019350c9a8ceb974abe5d38d172362b0, type: 2}
@@ -313,7 +313,7 @@ MonoBehaviour:
   missileFireRate: 2
   storeShots: 5
   lives: 3
-  scoreForShieldRegen: 25000
+  scoreForShieldRegen: 20000
 --- !u!198 &19854456
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -2469,7 +2469,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: scoreForShieldRegen
-      value: 25000
+      value: 20000
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: upgradeMain
@@ -2506,6 +2506,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: storeShots
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: boundary.zMax
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

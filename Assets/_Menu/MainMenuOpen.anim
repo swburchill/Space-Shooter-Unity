@@ -351,6 +351,25 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: 0
+        inSlope: 2.4000001
+        outSlope: 2.4000001
+        tangentMode: 10
+      - time: .416666657
+        value: 1
+        inSlope: 2.4000001
+        outSlope: 2.4000001
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_Alpha
+    path: 
+    classID: 225
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1001,25 +1020,6 @@ AnimationClip:
     attribute: m_LocalRotation.w
     path: Panel
     classID: 224
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 0
-        inSlope: 2.4000001
-        outSlope: 2.4000001
-        tangentMode: 10
-      - time: .416666657
-        value: 1
-        inSlope: 2.4000001
-        outSlope: 2.4000001
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_Alpha
-    path: 
-    classID: 225
     script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:

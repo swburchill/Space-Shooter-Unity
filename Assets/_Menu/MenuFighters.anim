@@ -18396,13 +18396,13 @@ AnimationClip:
         tangentMode: 0
       - time: 6
         value: {x: 12.8406601, y: 1.48594189, z: 6.20026779}
-        inSlope: {x: 0, y: 0, z: 45.3869667}
-        outSlope: {x: 0, y: 0, z: 45.3869667}
+        inSlope: {x: 1.93811229e-05, y: -98.2121887, z: 45.3869667}
+        outSlope: {x: 1.93811229e-05, y: -98.2121887, z: 45.3869667}
         tangentMode: 0
       - time: 7.0333333
-        value: {x: 12.8406601, y: 1.48594189, z: 100}
-        inSlope: {x: 0, y: 0, z: 90.7739334}
-        outSlope: {x: 0, y: 0, z: 90.7739334}
+        value: {x: 12.8407001, y: -201.485901, z: 100}
+        inSlope: {x: 3.87622458e-05, y: -196.424377, z: 90.7739334}
+        outSlope: {x: 3.87622458e-05, y: -196.424377, z: 90.7739334}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -19440,13 +19440,13 @@ AnimationClip:
         tangentMode: 10
       - time: 6
         value: 12.8406601
-        inSlope: 0
-        outSlope: 0
+        inSlope: 1.93811229e-05
+        outSlope: 1.93811229e-05
         tangentMode: 10
       - time: 7.0333333
-        value: 12.8406601
-        inSlope: 0
-        outSlope: 0
+        value: 12.8407001
+        inSlope: 3.87622458e-05
+        outSlope: 3.87622458e-05
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -19474,13 +19474,13 @@ AnimationClip:
         tangentMode: 10
       - time: 6
         value: 1.48594189
-        inSlope: 0
-        outSlope: 0
+        inSlope: -98.2121887
+        outSlope: -98.2121887
         tangentMode: 10
       - time: 7.0333333
-        value: 1.48594189
-        inSlope: 0
-        outSlope: 0
+        value: -201.485901
+        inSlope: -196.424377
+        outSlope: -196.424377
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -19521,6 +19521,151 @@ AnimationClip:
     attribute: m_LocalPosition.z
     path: EnemyEasy
     classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.71238899
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 5
+        value: 4.71238899
+        inSlope: -.314159274
+        outSlope: -.314159274
+        tangentMode: 10
+      - time: 10
+        value: 1.57079625
+        inSlope: -.314159274
+        outSlope: -.314159274
+        tangentMode: 10
+      - time: 16.0166664
+        value: 1.57079625
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: InitialModule.startRotation.scalar
+    path: Player/engines_player/part_jet_core
+    classID: 198
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .00650598109
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 5
+        value: .00650598109
+        inSlope: -.00565059809
+        outSlope: -.00565059809
+        tangentMode: 10
+      - time: 10
+        value: -.0500000007
+        inSlope: -.00565059809
+        outSlope: -.00565059809
+        tangentMode: 10
+      - time: 16.0166664
+        value: -.0500000007
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Player/engines_player/part_jet_core
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 5
+        value: 0
+        inSlope: -.00999999978
+        outSlope: -.00999999978
+        tangentMode: 10
+      - time: 10
+        value: -.100000001
+        inSlope: -.00999999978
+        outSlope: -.00999999978
+        tangentMode: 10
+      - time: 16.0166664
+        value: -.100000001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Player/engines_player/part_jet_core
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.109346204
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 5
+        value: -.109346204
+        inSlope: -.0190653801
+        outSlope: -.0190653801
+        tangentMode: 10
+      - time: 10
+        value: -.300000012
+        inSlope: -.0190653801
+        outSlope: -.0190653801
+        tangentMode: 10
+      - time: 16.0166664
+        value: -.300000012
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Player/engines_player/part_jet_core
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.71238899
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 5
+        value: 4.71238899
+        inSlope: -.314159274
+        outSlope: -.314159274
+        tangentMode: 10
+      - time: 10
+        value: 1.57079625
+        inSlope: -.314159274
+        outSlope: -.314159274
+        tangentMode: 10
+      - time: 16.0166664
+        value: 1.57079625
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: InitialModule.startRotation.scalar
+    path: Player/engines_player/part_jet_flare
+    classID: 198
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -91965,151 +92110,6 @@ AnimationClip:
     attribute: m_LocalRotation.w
     path: Player
     classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 4.71238899
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      - time: 5
-        value: 4.71238899
-        inSlope: -.314159274
-        outSlope: -.314159274
-        tangentMode: 10
-      - time: 10
-        value: 1.57079625
-        inSlope: -.314159274
-        outSlope: -.314159274
-        tangentMode: 10
-      - time: 16.0166664
-        value: 1.57079625
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: InitialModule.startRotation.scalar
-    path: Player/engines_player/part_jet_core
-    classID: 198
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: .00650598109
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      - time: 5
-        value: .00650598109
-        inSlope: -.00565059809
-        outSlope: -.00565059809
-        tangentMode: 10
-      - time: 10
-        value: -.0500000007
-        inSlope: -.00565059809
-        outSlope: -.00565059809
-        tangentMode: 10
-      - time: 16.0166664
-        value: -.0500000007
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalPosition.x
-    path: Player/engines_player/part_jet_core
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      - time: 5
-        value: 0
-        inSlope: -.00999999978
-        outSlope: -.00999999978
-        tangentMode: 10
-      - time: 10
-        value: -.100000001
-        inSlope: -.00999999978
-        outSlope: -.00999999978
-        tangentMode: 10
-      - time: 16.0166664
-        value: -.100000001
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalPosition.y
-    path: Player/engines_player/part_jet_core
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: -.109346204
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      - time: 5
-        value: -.109346204
-        inSlope: -.0190653801
-        outSlope: -.0190653801
-        tangentMode: 10
-      - time: 10
-        value: -.300000012
-        inSlope: -.0190653801
-        outSlope: -.0190653801
-        tangentMode: 10
-      - time: 16.0166664
-        value: -.300000012
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: m_LocalPosition.z
-    path: Player/engines_player/part_jet_core
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - time: 0
-        value: 4.71238899
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      - time: 5
-        value: 4.71238899
-        inSlope: -.314159274
-        outSlope: -.314159274
-        tangentMode: 10
-      - time: 10
-        value: 1.57079625
-        inSlope: -.314159274
-        outSlope: -.314159274
-        tangentMode: 10
-      - time: 16.0166664
-        value: 1.57079625
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 10
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-    attribute: InitialModule.startRotation.scalar
-    path: Player/engines_player/part_jet_flare
-    classID: 198
     script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:

@@ -40,6 +40,8 @@ public class GameController : MonoBehaviour
 	private MenuManager _menuManager;
 	private Menu _gameOverMenu;
 
+	private bool _paused;
+
 	void Awake()
 	{
 		GameObject canvasObject = GameObject.Find("Canvas");
@@ -82,6 +84,7 @@ public class GameController : MonoBehaviour
 		_score = 0;
 		_highScore = 0;
 		_hazardMax = 3;
+		_paused = false;
 		if(PlayerPrefs.GetInt("High Score") > _highScore) 
 		{
 			_highScore = PlayerPrefs.GetInt("High Score");
@@ -169,7 +172,16 @@ public class GameController : MonoBehaviour
 	{
 		if (Input.GetKeyDown (KeyCode.Escape)) 
 		{
-			_menuManager.Pause();
+			if(!_paused)
+			{
+				_menuManager.Pause();
+				_paused = true;
+			}
+			else
+			{
+				_menuManager.Resume();
+				_paused = false;
+			}
 		}
 
 		_timeSinceScoreUpdate = Time.time - _lastScoreUpdate;

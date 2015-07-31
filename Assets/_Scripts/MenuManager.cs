@@ -1,13 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 public class MenuManager : MonoBehaviour 
 {
 	public Menu currentMenu;
+	private Menu _pauseMenu;
 	
 	// Use this for initialization
 	public void Start() 
 	{
+		//on start the pause menu is the default current menu
+		_pauseMenu = currentMenu;
 		if (currentMenu.name == "PauseMenu") 
 		{
 			return;
@@ -23,7 +27,7 @@ public class MenuManager : MonoBehaviour
 		}
 
 		currentMenu = menu;
-		currentMenu.IsOpen = true;
+		OpenMenu ();
 	}
 
 	public void HideCurrentMenu()
@@ -41,6 +45,7 @@ public class MenuManager : MonoBehaviour
 
 	public void Restart()
 	{
+		Time.timeScale = 1.0f;
 		Application.LoadLevel(Application.loadedLevel);
 	}
 	
@@ -57,7 +62,7 @@ public class MenuManager : MonoBehaviour
 	
 	public void Pause()
 	{
-		OpenMenu();
+		ShowMenu(_pauseMenu);
 		Time.timeScale = 0.0f;
 	}
 
@@ -70,10 +75,19 @@ public class MenuManager : MonoBehaviour
 	private void OpenMenu()
 	{
 		currentMenu.IsOpen = true;
+		if (currentMenu.defaultButton != null) 
+		{
+			EventSystem.current.SetSelectedGameObject(currentMenu.defaultButton);
+		}
 	}
 
 	private void CloseMenu()
 	{
 		currentMenu.IsOpen = false;
+	}
+
+	public void SetButtonSelected(GameObject selectedButton)
+	{
+		EventSystem.current.SetSelectedGameObject(selectedButton);
 	}
 }

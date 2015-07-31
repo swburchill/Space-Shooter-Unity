@@ -5,6 +5,7 @@ public class Menu : MonoBehaviour
 {
 	private Animator _animator;
 	private CanvasGroup _canvasGroup;
+	public GameObject defaultButton;
 
 	public bool IsOpen
 	{

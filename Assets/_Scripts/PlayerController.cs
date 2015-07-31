@@ -145,7 +145,7 @@ public class PlayerController : MonoBehaviour
 				emit.Stop();
 				emit.Clear();
 				moveHorizontal = moveHorizontal * 0.9f;
-				moveVertical = moveVertical * 0.75f;
+				moveVertical = moveVertical * 0.8f;
 			}
 		} 
 		else if(moveVertical > 0) //moving forward so use both effects to simulate boost
