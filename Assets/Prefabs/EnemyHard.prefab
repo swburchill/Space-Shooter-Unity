@@ -306,8 +306,8 @@ MonoBehaviour:
   sideCannon2Position: {fileID: 412410}
   mainCannonFireRate: 1.5
   sideCannonFireRate: 2
-  mainCannonDelay: 1
-  SideCannonDelay: 1.5
+  mainCannonDelay: .5
+  SideCannonDelay: .899999976
   isIntro: 0
   animationTime: 0
   animationLoopTime: 0
@@ -1407,11 +1407,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: mainCannonDelay
-      value: 1
+      value: .5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: SideCannonDelay
-      value: 1.5
+      value: .899999976
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: upgradeMain
